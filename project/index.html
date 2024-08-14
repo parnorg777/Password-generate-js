@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="images/738857.png">
+    <title>Генератор паролей</title>
+</head>
+<body onload="GenPass()">
+    <main>
+        <h1>Генератор паролей</h1>
+        <section id="section1">
+        <div class="div1">
+            <label>Символы: a-z</label><br>
+            <label>Символы: A-Z</label><br>
+            <label>Символы: 0-9</label>
+        </div>
+        <div class="div2">
+            <input type="checkbox" id="lettersLw" onclick="proverka()"><br>
+            <input type="checkbox" id="lettersUp" onclick="proverka()"><br>
+            <input type="checkbox" id="number" onclick="proverka()">
+        </div>
+        <div id="div3"><hr></div>
+        <div  class="div1">
+            <label id="labelSpSim">Спец.символы</label><br>
+            <label id="labelDopSim">Доп.символы</label><br>
+            <label id="labelAllSim">Все символы</label>
+        </div>
+        <div class="div2">
+            <input type="checkbox" id="SpSim" onclick="proverka()"><br>
+            <input type="checkbox" id="DopSim" onclick="proverka()"><br>
+            <input type="checkbox" id="AllSim" onclick="AllSimvols()">
+        </div>
+        </section>
+        <section>
+        <input type="text" id="passlength" disabled value="10">
+        <input type="range" id="length" min="10" max="25" value="10" oninput="range();GenPass()">
+        <button onclick="GenPass()" id="repass"><img src="images/1250694.png" width="25px" height="25px"></button>
+        </section>
+        <section id="sectionPass">
+        <input type="text" value="monkqxmiulp" disabled id="password">
+        <div id="mod" hidden>Скопировано</div>
+        <button id="copy" onclick="Copy()"><img src="images/5757665.png" width="25px" height="25px" id="img"></button>
+        </section>
+    </main>
+    <script src="script.js" async></script>
+</body>
+</html>

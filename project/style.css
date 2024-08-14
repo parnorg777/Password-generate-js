@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body {
+    background-color: #6EA1F6;
+}
+main {
+    width: 700px;
+    height: 380px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0,-50%);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.466);
+    background-color: azure;
+    border-radius: 15px;
+}
+h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 2.6em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    cursor: default;
+}
+#section1 {
+    width: 520px;
+    height: 150px;
+    /* background-color: rgba(0, 0, 0, 0.289); */
+    display: inline-block;
+    text-align: center;
+}
+#section1 div {
+    height: 150px;
+    font-size: 1.9em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    float: left;
+    /* background-color: rgba(0, 0, 0, 0.254); */
+}
+.div1 {
+    width: 175px;
+    /* background-color: rgba(0, 0, 0, 0.343); */
+    text-align: left;
+}
+.div2 {
+    width: 30px;
+    
+    /* background-color: rgba(0, 0, 0, 0.139); */
+}
+#div3 {
+    width: 110px;
+}
+hr {
+    transform: rotate(90deg);
+    position: relative;
+    top: 57px;
+    width: 130px;
+    left: -11px;
+}
+
+label {
+    color: darkslategrey;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#labelSpSim {
+    letter-spacing: 1px;
+}
+#labelAllSim {
+    letter-spacing: 2.5px;
+}
+#password {
+    width: 650px;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    border-radius: 7px;
+    cursor: text;
+}
+#length {
+    width: 575px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#repass {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    border: turquoise solid 2px;
+    background-color: rgb(254, 251, 251);
+    padding-top: 3px;
+    padding-left: 3px;
+    cursor: pointer;
+    position: relative;
+    bottom: -3px;
+}
+#repass:hover {
+    background-color: rgba(0, 0, 0, 0.091);
+}
+#repass:active {
+    background-color: rgba(0, 0, 0, 0.141);
+}
+#passlength {
+    width: 35px;
+    height: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+#copy {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    margin-top: 6px;
+    right: 3.5%;
+    padding-top: 4px;
+}
+#copy:hover {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+#mod {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(39, 62, 62);
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0px;
+    font-size: 1.1em;
+    color: azure;
+    border-radius: 3px;
+    bottom: 49px;
+    right: 57px;
+}
